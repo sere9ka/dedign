@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1110px;
+    width: 100%;
+    margin: auto;
+}
+
+.header__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo {
+    font-family: Revalia;
+    font-size: 48px;
+    color: #34547A;
+    margin-top: 57px;
+}
+
+.header__nav {
+    margin-top: 79px;
+    max-width: 611px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav__link {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+    color: black;
+    letter-spacing: 0.1em;
+}
+
+.nav__link:hover {
+    font-weight: 500;
+    color: #34547A;
+}
+
+.section__hero {
+    background-color: #EEEFF1;
+}
+
+.hero__block {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 257px;
+    padding-bottom: 146px;
+    margin-top: -117px;
+    max-width: 1100px;
+}
+
+.main__title {
+    font-family: Roboto, sans-serif;
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.main__text {
+    max-width: 540px;
+    color: #727272;
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 60px;
+}
+
+.main__button {
+    border: 0;
+    background-color: #34547A;
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    border-radius: 0;
+    padding-left: 41px;
+    padding-right: 41px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.section__aboutme {
+    padding-top: 119px;
+    padding-bottom: 100px;
+}
+
+.aboutme__block {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+}
+
+.aboutme__title {
+    font-family: Roboto, sans-serif;
+    font-size: 32px;
+    font-weight: 500;
+    margin-bottom: 50px;
+}
+
+.aboutme__text {
+    font-family: Roboto, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #727272;
+    max-width: 540px;
+    text-align: center;
+}
+
+.section__projects {
+    background-color: #34547A;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.projects__block {
+    display: flex;
+    justify-content: space-between;
+}
+
+.project {
+    display: flex;
+    justify-content: space-between;
+    max-width: 141px;
+    color: white;
+    font-family: Roboto, sans-serif;
+}
+
+.project__text {
+    vertical-align: middle;
+    margin-left: 20px;
+}
+
+.project__regular {
+    font-size: 21px;
+    font-weight: 500;
+}
+
+.project__normal {
+    font-size: 16px;
+    font-weight: 400;
+}
